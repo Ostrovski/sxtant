@@ -1,0 +1,40 @@
+{{ template "html-doc" }}
+{{ template "html-head" . }}
+<body>
+<div class="l-header">
+	<div class="l-header-wrapper">
+		<div class="l-header__logo">SEXTANT</div>
+
+		<span style="margin: 0 20px; cursor: pointer;">
+			<span style="text-decoration: underline;">StackOverflow</span>&nbsp;<i class="fa fa-angle-down"></i>
+		</span>
+		<select>
+			<option>Superuser</option>
+			<option>Serverfault</option>
+			<option>AskUbuntu</option>
+		</select>
+
+		<div class="l-header__about"><a href="/about">about</a></div>
+	</div>
+</div>
+
+<div class="l-content">
+	<div class="site-stats">
+		100 questions/min
+	</div>
+	<button>Start!</button>
+	<ul class="latest-questions">
+		<li>Do i need to add a plugin to every module in angular 2?</li>
+		<li>How to shutdown glog completely to run go tests?</li>
+		<li>Can I mimic a log scale of an axis in matplotlib without transforming the associated data?</li>
+		<li>How to calculate moving average in Python 3?</li>
+		<li>ImportError: No module named 'dash' for Django 1.10.3</li>
+	</ul>
+</div>
+
+<div class="l-footer">
+</div>
+
+<script src="static/js/site-page.js"></script>
+</body>
+</html>
